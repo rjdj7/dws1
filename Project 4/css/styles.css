@@ -1,0 +1,125 @@
+/* ---------------- Body-related CSS ---------------- */
+
+body {
+	background-color: #F0F0F0;
+	background-image: url("images/black.png");
+	background-repeat: repeat;
+	background-position: center; 
+}
+
+p, ul, blockquote, ol, cite, figure, footer{
+	font-family: Arial, sans-serif;
+	font-size: .9em;
+}
+
+#wrapper {
+	padding-left: 50px;
+	width: 80%;
+	font-family: Garamond, sans-serif;
+	line-height: 2;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 0px 15px #6BC264;
+	overflow: auto;
+}
+
+#leftcolumn{
+	float: left;
+	width: 40%;
+	clear: both;
+	padding: 2%;
+	margin: 2%;
+}
+
+#rightcolumn{
+	float: left;
+	width: 40%;
+	padding: 2%;
+	margin: 2%;
+	background: linear-gradient(#6BC264, #000000);
+	color: #ffffff;
+}
+
+
+/* ---------------- Heading-related CSS ---------------- */
+
+@font-face {
+    font-family: Oswald;
+    src: url(http://fonts.googleapis.com/css?family=Oswald);
+}
+
+h1 {
+	color: #6BC264;
+	padding: 20px 0px 10px 0px;
+	font-family: "Oswald", serif;
+	font-size: 3em;
+	font-weight: normal;
+	text-shadow: 1px 1px 4px #000000;
+}
+
+h2, h3 {
+	font-family: "Bodoni", sans-serif;
+}
+
+/* ---------------- Other CSS ---------------- */
+
+cite {
+	font-style: normal;
+	text-align: right;
+	display: block;
+}
+
+li a {
+	text-decoration: none;
+	color: #000000;
+}
+
+li a:hover{
+	color: #6BC264;
+}
+
+li a:visited{
+	opacity: .5;
+}
+
+footer {
+	text-align: right;
+}
+
+/* ----------- Table-Specific CSS --------- */
+
+table {
+	border: solid 1px #000;
+	border-collapse: collapse;
+	width: 80%;
+}
+
+td, th {
+	border: solid 1px #D3D3D3;
+	padding: 5px;
+	text-align: center;
+}
+
+th {
+	letter-spacing: 1px;
+	background-color: #D3D3D3;
+}
+
+td {
+	font-size: .8em;
+}
+
+td:hover{
+	background-color: #6BC264;
+}
+/* ---------------- ID-specific CSS ---------------- */
+
+#johnQuote {
+	font-style: italic;
+}
+
+#johnName {
+	font-style: normal;
+}
